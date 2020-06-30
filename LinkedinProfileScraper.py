@@ -1,11 +1,3 @@
-'''
-TO DO:
-
-IDEAS:
-If experience etc match requirements, send dm
-'''
-
-
 import os, random, sys, time
 from urllib.parse import urlparse
 from selenium import webdriver
