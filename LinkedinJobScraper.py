@@ -40,7 +40,7 @@ message_click = True
 for job in job_list:
     #Access job
     browser.get('https://www.linkedin.com/jobs/?showJobAlertsModal=false')
-    jobID = browser.find_element_by_id('jobs-search-box-keyword-id-ember18')
+    jobID = browser.find_element_by_id('jobs-search-box-keyword-id-ember17')
     jobID.send_keys(job)
     if message_click:
         messaging = browser.find_element_by_class_name('msg-overlay-bubble-header')
