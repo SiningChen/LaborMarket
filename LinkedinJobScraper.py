@@ -1,8 +1,7 @@
 '''
 TO DO:
-x Click intercepted by messaging pop-up
-x Save data to txt file
-3. Track data daily
+1. Track data daily
+2. Automatically run program?
 
 Note: Job postings are in Canada
 
@@ -48,6 +47,8 @@ for job in job_list:
         message_click = False
     search = browser.find_element_by_class_name('jobs-search-box__submit-button')
     search.click()
+
+    print("Scraping data for " + job)
 
     SCROLL_PAUSE_TIME = 5
 

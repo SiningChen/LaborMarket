@@ -55,6 +55,7 @@ for profile in visitingProfileID:
 
 
     exp_section = soup.find('section', {'id' : 'experience-section'})
+    # Try to condense
     if exp_section is not None:
         exp_section = exp_section.find('ul')
         if exp_section is not None:
